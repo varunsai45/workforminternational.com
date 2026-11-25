@@ -34,7 +34,7 @@ function Header() {
   return <header className="site-header">
     <div className="nav-wrap">
       <Link to="/" className="brand" aria-label="Workform International home">
-        <img src="/images/workform-logo.jpeg" alt="Workform International logo" />
+        <img src="/images/workform-logo.png" alt="Workform International logo" />
         <span className="brand-tag">FAST-TRACK<br />CORPORATE INTERIORS</span>
       </Link>
       <button className="mobile-toggle" onClick={() => setOpen(!open)} aria-label="Toggle navigation">{open ? <X /> : <Menu />}</button>
@@ -61,7 +61,7 @@ function Footer() {
   return <footer className="footer">
     <div className="footer-main container">
       <div className="footer-brand">
-        <img src="/images/workform-logo.jpeg" alt="Workform International" />
+        <img src="/images/workform-logo.png" alt="Workform International" />
         <p>Fast-track corporate interiors.<br/><strong>We manufacture our own.</strong></p>
         <div className="socials"><span className="social-note">SOCIAL PROFILES TO BE ADDED</span></div>
       </div>
